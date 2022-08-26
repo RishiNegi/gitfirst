@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>opacity and transtition</title>
+    <style>
+.main{
+    height: 400x;
+    width: 400px;
+    margin-top: 300px;
+    margin-left: 1000px;
+}
+.main2{
+    height: 40px;
+    width: 400px;
+    background-color: cadetblue;
+    color: black;
+    text-align: center;
+    float: center;
+    opacity: 0;
+    position: absolute;
+    bottom:180px;
+}
+.main:hover .main2{
+    opacity: 1;
+    background-color: palevioletred;
+    transition: 2s;
+}
+</style>
+<body>
+<div class="main">
+    <img src="html.JPG" height="100%" width="100%">
+    <div class="main2">Add To My Cart</div>
+</div>
+</body>
+</html>
